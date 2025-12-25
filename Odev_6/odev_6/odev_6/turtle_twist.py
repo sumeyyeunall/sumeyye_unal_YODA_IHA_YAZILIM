@@ -37,7 +37,7 @@ class TurtleTwist(Node):
     def stop_turtle(self):
         stop_msg = Twist()
         self.publisher_.publish(stop_msg)
-        self.get_logger().warn('Turtle durduruluyor...')
+        self.get_logger().warn('Turtle durduruluyor')
 
 def main(args=None):
     rclpy.init(args=args) #ROS2 başlat
