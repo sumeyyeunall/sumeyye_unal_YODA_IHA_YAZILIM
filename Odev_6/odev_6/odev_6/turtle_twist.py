@@ -6,7 +6,6 @@ class TurtleTwist(Node):
     def __init__(self):
         super().__init__('turtle_twist_node')
         
-        #1.Parametre Tanımlama
         #linear_speed ve angular_speed parametrelerini default değerleriyle tanımlıyoruz
         self.declare_parameter('linear_speed', 1.5)
         self.declare_parameter('angular_speed', 1.0)
